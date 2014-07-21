@@ -5,9 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width">
     <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/css/main.css"></link>
   </head>
   <body>
-    <h1><a href="/">{{ site.name }}</a></h1>
-    {{ content }}
+    <section id="content">
+      <h1><a href="/">{{ site.name }}</a></h1>
+      {{ content }}
+    </section>
   </body>
 </html>
