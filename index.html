@@ -1,0 +1,13 @@
+---
+layout: default
+title: Metaphysics.io
+---
+<a href="/what-is-this.html">What is this?</a>
+
+<h2>Concepts</h2>
+
+<ul>
+  {% for post in site.posts %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
