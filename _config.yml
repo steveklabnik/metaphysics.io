@@ -2,3 +2,5 @@ name: Metaphysics.io
 markdown: redcarpet
 pygments: true
 permalink: none
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
