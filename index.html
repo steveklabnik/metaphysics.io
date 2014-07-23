@@ -2,13 +2,12 @@
 layout: default
 title: Metaphysics.io
 ---
+<p><a href="what-is-this.html">What is this?</a></p>
+
 <h2>Concepts</h2>
 
-<ul>
+<ul style="list-style-type:none">
   {% for post in site.posts %}
     <li><a href="{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
-
-<p><a href="/what-is-this.html">What is this?</a></p>
-

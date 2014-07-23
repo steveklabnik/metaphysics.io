@@ -3,8 +3,6 @@ layout: post
 title: "True, False, FileNotFound"
 ---
 
-The largest thing holding software back is a binary notion of truth.
-
 There's an old programming aphorism about the **tri-bool.** Your buddy heard from
 a friend that the new intern was showing off some new code during code review,
 and it looked like this:
@@ -22,12 +20,11 @@ implementation](http://www.boost.org/doc/libs/1_55_0/doc/html/tribool.html).
 That intern isn't so silly now. But at the same time, boolean logic is at the
 foundation of computing. What gives?
 
-When I said that binary truth is "holding back software," I mean something very
-specific. I don't mean that "binary truth is False." I mean that "binary truth
-is not usually a worthwhile thing to even bother with, but binary truth colors
-everything in programming." You can see this reflected at the simplest levels
-of computing. Boolean logic is not that interesting or useful. At its most
-basic, you have a few simple things:
+Well, here's the thing: a binary notion of truth is not usually a worthwhile
+thing to even bother with, but binary truth colors everything in programming.
+You can see this reflected at the simplest levels of computing. Boolean logic
+is not that interesting or useful. At its most basic, you have a few simple
+things:
 
 1. Two values, `true` and `false`.
 2. One binary operation: `conjunction` (`∧`)
@@ -58,7 +55,7 @@ them from the other:
 
 Anyway, that's it. If you just memorize the above, you now know boolean logic.
 And, in a certain sense, you now know _everything_ that computers can do.  To
-put it in Rich Hickey terms, boolean logic is simple, but not easy.  There's
+put it in Rich Hickey terms, boolean logic is simple, but not easy. There's
 just not a whole lot to it. In order to be useful, we combine these incredibly
 primitive operations. For example, we can define `implication`(→) as
 
