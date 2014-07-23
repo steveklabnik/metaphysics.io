@@ -1,4 +1,6 @@
 name: Metaphysics.io
+description: A blog about technology and philosophy
+url: http://metaphysics.io
 markdown: redcarpet
 pygments: true
 permalink: none
